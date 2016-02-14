@@ -1,6 +1,7 @@
 # Required packages
 PRODUCT_PACKAGES += \
     OmniRecord \
+    OmniStyle \
     ThemePicker
 
 ifeq ($(filter-out Official CI Private, $(DERP_BUILDTYPE)),)
