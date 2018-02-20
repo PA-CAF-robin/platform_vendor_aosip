@@ -1,7 +1,11 @@
 # Required packages
 PRODUCT_PACKAGES += \
-    ThemePicker \
-    Updater
+    ThemePicker
+
+ifeq ($(filter-out Official CI Private, $(DERP_BUILDTYPE)),)
+    PRODUCT_PACKAGES += \
+        Updater
+endif
 
 # Extra tools in AOSiP
 PRODUCT_PACKAGES += \
