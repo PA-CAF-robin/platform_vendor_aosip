@@ -109,3 +109,9 @@ include vendor/aosip/config/packages.mk
 
 # Versioning
 include vendor/aosip/config/version.mk
+
+# GApps
+include vendor/gapps/config.mk
+
+# Pixel Style
+include vendor/pixelstyle/config.mk
