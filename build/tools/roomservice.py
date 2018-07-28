@@ -30,11 +30,11 @@ import urllib.request
 DEBUG = False
 default_manifest = ".repo/manifest.xml"
 
-custom_local_manifest = ".repo/local_manifests/aosip_manifest.xml"
+custom_local_manifest = ".repo/local_manifests/derp_manifest.xml"
 custom_default_revision = "ten"
-custom_dependencies = "aosip.dependencies"
+custom_dependencies = "derp.dependencies"
 org_manifest = "devices"  # leave empty if org is provided in manifest
-org_display = "AOSiP-Devices"  # needed for displaying
+org_display = "DerpFest-Devices"  # needed for displaying
 
 github_auth = None
 

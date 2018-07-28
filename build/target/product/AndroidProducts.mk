@@ -15,13 +15,13 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosip_arm.mk \
-    $(LOCAL_DIR)/aosip_arm64.mk \
-    $(LOCAL_DIR)/aosip_x86.mk \
-    $(LOCAL_DIR)/aosip_x86_64.mk
+    $(LOCAL_DIR)/derp_arm.mk \
+    $(LOCAL_DIR)/derp_arm64.mk \
+    $(LOCAL_DIR)/derp_x86.mk \
+    $(LOCAL_DIR)/derp_x86_64.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosip_arm-userdebug \
-    aosip_arm64-userdebug \
-    aosip_x86-userdebug \
-    aosip_x86_64-userdebug
+    derp_arm-userdebug \
+    derp_arm64-userdebug \
+    derp_x86-userdebug \
+    derp_x86_64-userdebug

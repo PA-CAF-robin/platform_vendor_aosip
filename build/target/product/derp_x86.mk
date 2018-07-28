@@ -14,8 +14,8 @@
 
 $(call inherit-product, build/target/product/aosp_x86.mk)
 
-include vendor/aosip/build/target/product/aosip_generic_target.mk
+include vendor/aosip/build/target/product/derp_generic_target.mk
 
 TARGET_USES_64_BIT_BINDER := true
 
-PRODUCT_NAME := aosip_x86
+PRODUCT_NAME := derp_x86
