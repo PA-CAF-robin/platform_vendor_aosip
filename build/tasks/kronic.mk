@@ -5,6 +5,7 @@ otapackage: $(INTERNAL_OTA_PACKAGE_TARGET)
 kronic: otapackage
 	$(hide) mv $(INTERNAL_OTA_PACKAGE_TARGET) $(AOSIP_TARGET_PACKAGE)
 	$(hide) $(MD5SUM) $(AOSIP_TARGET_PACKAGE) | cut -d ' ' -f1 > $(AOSIP_TARGET_PACKAGE).md5sum
+	$(hide) ./vendor/aosip/tools/generate_json_build_info.sh $(AOSIP_TARGET_PACKAGE)
 	@echo -e ""
 	@echo -e "${cya}Building ${bldcya}DerpFest ${txtrst}";
 	@echo -e ""
