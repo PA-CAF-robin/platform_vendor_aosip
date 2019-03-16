@@ -10,6 +10,10 @@ ifeq ($(filter-out Official CI Private, $(DERP_BUILDTYPE)),)
         Updater
 endif
 
+# Cutout control overlay
+PRODUCT_PACKAGES += \
+    NoCutoutOverlay
+
 # Extra tools in AOSiP
 PRODUCT_PACKAGES += \
     7z \
