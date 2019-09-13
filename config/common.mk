@@ -119,6 +119,14 @@ PRODUCT_PACKAGES += \
     PixelSetupWizardOverlay \
     PixelSetupWizardAodOverlay
 
+# Themed bootanimation
+TARGET_MISC_BLOCK_OFFSET ?= 0
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    ro.misc.block.offset=$(TARGET_MISC_BLOCK_OFFSET)
+PRODUCT_PACKAGES += \
+    misc_writer_system \
+    themed_bootanimation
+
 # GApps
 include vendor/gapps/config.mk
 
