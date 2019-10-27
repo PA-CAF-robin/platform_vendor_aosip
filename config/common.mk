@@ -93,7 +93,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_MINIMIZE_JAVA_DEBUG_INFO := true
 
 # Common overlay
-PRODUCT_PACKAGE_OVERLAYS += vendor/aosip/overlay/common
+DEVICE_PACKAGE_OVERLAYS += vendor/aosip/overlay/common
 
 # Include overlays
 PRODUCT_PACKAGE_OVERLAYS += \
