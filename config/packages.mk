@@ -1,5 +1,6 @@
 # Required packages
 PRODUCT_PACKAGES += \
+    AOSiPOverlayStub \
     OmniRecord \
     OmniStyle \
     PixelLiveWallpaperPrebuilt
