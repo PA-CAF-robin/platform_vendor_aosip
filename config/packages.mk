@@ -4,6 +4,13 @@ PRODUCT_PACKAGES += \
     OmniStyle \
     PixelLiveWallpaperPrebuilt
 
+ifeq ($(CURRENT_BUILD_TYPE), nogapps)
+PRODUCT_PACKAGES += \
+    Gallery2 \
+    LatinIME \
+    messaging
+endif
+
 ifeq ($(filter-out Official CI Private, $(DERP_BUILDTYPE)),)
     PRODUCT_PACKAGES += \
         OpenDelta
