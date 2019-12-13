@@ -51,15 +51,20 @@ PRODUCT_PACKAGES += \
 
 # Accents
 PRODUCT_PACKAGES += \
+    AccentColorAzureBlueOverlay \
+    AccentColorLimeOverlay \
+    AccentColorNeonGreenOverlay \
+    AccentColorOrangeOverlay \
+    AccentColorPixelBlueOverlay \
     AccentColorYellowOverlay \
-    AccentColorVioletOverlay \
     AccentColorTealOverlay \
+    AccentColorBlackOverlay \
+    AccentColorCinnamonOverlay \
+    AccentColorBlueGrayOverlay \
+    AccentColorOrchidOverlay \
     AccentColorRedOverlay \
     AccentColorQGreenOverlay \
-    AccentColorPinkOverlay \
-    AccentColorLightPurpleOverlay \
     AccentColorIndigoOverlay \
-    AccentColorFlatPinkOverlay \
     AccentColorCyanOverlay \
-    AccentColorBlueGrayOverlay \
-    AccentColorMintOverlay
+    AccentColorMintOverlay \
+    AccentColorDerpMagentaOverlay \
