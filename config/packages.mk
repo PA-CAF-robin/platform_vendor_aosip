@@ -1,7 +1,8 @@
-# Required packages
+# DerpFest packages
 PRODUCT_PACKAGES += \
-    PixelThemes \
-    ThemePicker
+    OmniRecord \
+    OmniStyle \
+    PixelLiveWallpaperPrebuilt
 
 ifeq ($(filter-out Official CI, $(AOSIP_BUILDTYPE)),)
     PRODUCT_PACKAGES += \
@@ -28,12 +29,6 @@ PRODUCT_PACKAGES += \
     vim \
     wget \
     zip
-
-# DerpFest packages
-PRODUCT_PACKAGES += \
-    OmniRecord \
-    OmniStyle \
-    PixelLiveWallpaperPrebuilt
 
 # Cutout control overlay
 PRODUCT_PACKAGES += \
