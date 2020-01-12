@@ -93,17 +93,14 @@ PRODUCT_PACKAGE_OVERLAYS += \
 # Disable vendor restrictions
 PRODUCT_RESTRICT_VENDOR_FILES := false
 
-# Bootanimation
-include vendor/aosip/config/bootanimation.mk
-
-# GSans font
-include vendor/aosip/config/fonts.mk
-
 # Packages
 include vendor/aosip/config/packages.mk
 
 # Versioning
 include vendor/aosip/config/version.mk
+
+# Overlays
+include vendor/overlay/overlays.mk
 
 PRODUCT_DEXPREOPT_SPEED_APPS += \
     Settings \
