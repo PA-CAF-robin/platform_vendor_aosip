@@ -101,8 +101,7 @@ include vendor/aosip/config/version.mk
 
 PRODUCT_DEXPREOPT_SPEED_APPS += \
     Settings \
-    SystemUI \
-    NexusLauncherRelease
+    SystemUI
 
 # PixelSetupWizard overlay
 PRODUCT_PACKAGES += \
