@@ -3,7 +3,8 @@ PRODUCT_PACKAGES += \
     AOSiPOverlayStub \
     OmniRecord \
     OmniStyle \
-    PixelLiveWallpaperPrebuilt
+    PixelLiveWallpaperPrebuilt \
+    ThemePicker
 
 ifeq ($(CURRENT_BUILD_TYPE), nogapps)
 PRODUCT_PACKAGES += \
